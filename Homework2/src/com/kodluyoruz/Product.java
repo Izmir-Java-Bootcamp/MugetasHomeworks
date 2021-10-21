@@ -48,7 +48,8 @@ public class Product {
      * @return seller
      */
     public final String getSeller() {
-      return this.seller;
+
+        return this.seller;
     }
 
     /**
@@ -84,7 +85,8 @@ public class Product {
     /**
      * Return the name of the product
      */
-    public String toString() {
+    public String toString()
+    {
        return this.name;
     }
 }

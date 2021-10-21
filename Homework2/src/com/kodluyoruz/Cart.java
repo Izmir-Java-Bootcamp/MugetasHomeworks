@@ -21,6 +21,7 @@ public class Cart {
      * @return
      */
     public List<Product> getProducts() {
+
         return this.products;
     }
 
@@ -31,6 +32,7 @@ public class Cart {
      */
     public void addProduct(Product product) {
         this.products.add(product);
+
     }
 
     /**
